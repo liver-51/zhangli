@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>本机IP信息</title>
+</head>
+<body>
+<h2>本机网络地址信息</h2>
+<p>Windows手动页面，可填写本机IPv4：192.168.xxx.xxx</p >
+<hr>
+<div id="time-box"></div>
+<script>
+const now = new Date();
+document.getElementById("time-box").innerHTML = `页面生成时间：${now.toLocaleString()}<br>时间戳：${Date.now()}`;
+</script>
+</body>
+</html>
